@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moda JAZ - Zapatos</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header id="inicio">
+    <h1>👟 Moda JAZ</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#oferta">Oferta</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SECCIÓN TIENDA -->
+  <section id="tienda" class="seccion">
+  <h2>Nuestra Tienda</h2>
+
+  <div class="categorias">
+    <a href="#mujer"><button>Mujer</button></a>
+    <a href="#varon"><button>Varón</button></a>
+    <a href="#ninos"><button>Niños</button></a>
+  </div>
+
+  <!-- Sección Mujer -->
+  <div id="mujer" class="productos">
+    <h3>Zapatos para Mujer</h3>
+    <div class="producto">
+      <img src="src/img/zapatosrosados.jpg" alt="Tacones Rosados" />
+      <h4>Tacones Rosados</h4>
+      <p>$120</p>
+      <button>comprar</button>
+    </div>
+    <div class="producto">
+      <img src="src/img/balerinasnegras.jpg" alt="Balerinas Negras" />
+      <h4>Balerinas Negras</h4>
+      <p>$90</p>
+      <button>comprar</button>
+    </div>
+  </div>
+
+  <!-- Sección Varón -->
+  <div id="varon" class="productos">
+    <h3>Zapatos para Varón</h3>
+    <div class="producto">
+      <img src="src/img/zapatiilasurbanas.avif" alt="Zapatillas Urbanas" />
+      <h4>Zapatillas Urbanas</h4>
+      <p>$110</p>
+      <button>comprar</button>
+    </div>
+    <div class="producto">
+      <img src="src/img/zapatovestir.webp" alt="Zapatos de vestir" />
+      <h4>Zapatos de vestir</h4>
+      <p>$130</p>
+      <button>comprar</button>
+    </div>
+  </div>
+
+  <!-- Sección Niños -->
+  <div id="ninos" class="productos">
+    <h3>Zapatos para Niños</h3>
+    <div class="producto">
+      <img src="src/img/zapatillasluces.jpg" alt="Zapatillas con luces" />
+      <h4>Zapatillas con luces</h4>
+      <p>$75</p>
+      <button>comprar</button>
+    </div>
+    <div class="producto">
+      <img src="src/img/zandalias.webp" alt="Sandalias infantiles" />
+      <h4>Sandalias infantiles</h4>
+      <p>$60</p>
+      <button>comprar</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contenedor de productos -->
+  <div id="contenedor-productos" class="productos">
+    <!-- Aquí se mostrarán los productos -->
+  </div>
+</section>
+
+  <!-- SECCIÓN OFERTA -->
+  <section id="oferta" class="seccion oferta">
+    <h2>Ofertas Especiales</h2>
+    <p>¡50% de descuento en todos los zapatos deportivos este mes!</p>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="seccion contacto">
+    <h2>Contacto</h2>
+    <p>Escríbenos a: <strong>modajaz@gmail.com</strong></p>
+    <p>WhatsApp: <strong>+51 999 888 777</strong></p>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>&copy; 2025 Moda JAZ. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="code/code.js"></script>
+<div id="notificacion" class="notificacion oculto">¡Producto agregado al carrito!</div>
+</body>
+</html>
